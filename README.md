@@ -32,6 +32,8 @@ https://www.youtube.com/playlist?list=PLn6VVnZ1Agg7WyXJDG8mpvgpD8NcM_q8l
 Creating event-driven systems with event queues:
 Coming soon
 
+Game development with Ebiten engine: ***if requested***
+
 ## 🇭🇺 Magyar verzió
 📘 A repository-ról
 
@@ -62,3 +64,5 @@ https://www.youtube.com/playlist?list=PLn6VVnZ1Agg7WyXJDG8mpvgpD8NcM_q8l
 
 Esemény vezérelt rendszerek készítése esemény sorokkal:
 Hamarosan
+
+Játék készítés az Ebiten keretredszerrel, ***kérésre***
