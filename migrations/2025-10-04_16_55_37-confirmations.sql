@@ -1,0 +1,5 @@
+CREATE TABLE confirmations (
+    email VARCHAR(255) PRIMARY KEY,
+    uuid VARCHAR(36),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+)

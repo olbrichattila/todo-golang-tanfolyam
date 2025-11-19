@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>It-Atti Todo</title>
+  <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>It-Atti Todo</h1>
+    <h2>Login</h2>
+
+    <form class="todo-form" action="/login" method="POST">
+      <input type="email" name="email" placeholder="email" required>
+      <input type="password" name="password" placeholder="email" required>
+      {{if .Error}}
+        <div class="error">{{.Error}}</div>
+      {{end}}
+      <button type="submit">Login</button>
+    </form>
+    <span>Not registered? <a href="/register">register</a></span>
+
+</div>
+</body>
+</html>

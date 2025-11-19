@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>It-Atti Todo</title>
+  <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+  <div class="container">
+    <a href="/logout">Logout</a>
+    <h1>It-Atti Todo </h1>
+        
+    <form class="todo-form" action="/todo" method="POST">
+      <textarea name="todo" placeholder="Write your todo..." required></textarea>
+      <button type="submit">Save</button>
+    </form>
+
+    <table class="todo-table">
+      <thead>
+        <tr>
+          <th colspan="2">Todo</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{range .Todos}}
+        <tr>
+          <td>{{.Todo}}</td>
+          <td class="right">
+            <a class="btn" href="/delete?uuid={{.UUID}}">Delete</a>
+          </td>
+        </tr>
+        {{end}}
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

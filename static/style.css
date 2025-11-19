@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f6fc;
+  margin: 0;
+  padding: 20px;
+  color: #1f3b57;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #1a73e8;
+  margin-bottom: 20px;
+}
+
+.todo-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.todo-form textarea {
+  resize: none;
+  min-height: 80px;
+  padding: 10px;
+  border: 1px solid #c7d7eb;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.todo-form button {
+  align-self: flex-end;
+  background: #1a73e8;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.todo-form button:hover {
+  background: #1666c4;
+}
+
+.todo-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.todo-table th {
+  text-align: left;
+  background: #e3efff;
+  color: #1a73e8;
+  padding: 10px;
+  border-bottom: 2px solid #c7d7eb;
+}
+
+.todo-table td {
+  padding: 10px;
+  border-bottom: 1px solid #c7d7eb;
+}
+
+
+input {
+  margin: 6px;
+  padding: 6px;
+}
+
+.error {
+  margin: 6px;
+  padding: 6px;
+  border: 2px solid red;
+  background-color:red;
+  color: white;
+  border-radius: 6px;
+}
+
+.right {
+  text-align: right;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #1a73e8;
+  border: #1a73e8;
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  padding: 6px 12px;
+  cursor: pointer;
+}
